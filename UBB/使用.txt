@@ -1,0 +1,10 @@
+<textarea name="GBookEditor" id="GBookEditor" rows="2" cols="18" style="height:150px;width:99%; margin:auto;"></textarea>
+	<script language="javascript" type="text/javascript" src="ubb/CsdnUbbEditor.js"></script>
+    <script type="text/javascript">
+	/*<![CDATA[*/
+		var ubb = new CsdnUbbEditor("GBookEditor");
+		ubb.contentLength = 1000;
+//		ubb.helpLink = "help/ubb.html";
+		ubb.render("fontsize|space|bold|italic|underline|color|space|url|email|image|space|left|center|right|smilies");
+//ubb.render("fontsize|space|bold|italic|underline|strikethrough|color|code|space|url|email|image|swf|movie|space|left|center|right|space|help|increase|decrease");
+/*]]>*/</script>

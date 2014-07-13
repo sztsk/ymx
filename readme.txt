@@ -1,0 +1,3 @@
+
+GetArtByIdAll  根据artid 获取单篇文章全部信息
+GetArticleByClassId 根据栏目Id获取记录集

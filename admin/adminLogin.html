@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>深圳亚玛迅雕塑园林艺术有限公司 - 后台管理</title>
+<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+</head>
+
+<body>
+<div class="loginContainer">
+  <div class="loginLeft"><img src="images/logo.png" /></div>
+  <div class="loginRight">
+  	<form id="form1" name="form1" method="post" action="admin_login_check.asp"  onsubmit="return login();">
+      <table width="380" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th colspan="2">登录网站后台管理</th>
+        </tr>
+        <tr>
+          <td width="80">管理员：</td>
+          <td width="300"> <input name="a_name" type="text" class="loginInputBox"  size="14"/></td>
+        </tr>
+        <tr>
+          <td width="80">密码：</td>
+          <td width="300"><input name="pwd" type="password" class="loginInputBox" size="14" /><img src="images/security-lock.png" /></td>
+        </tr>
+        <tr>
+          <td width="80">验证码：</td>
+          <td width="300"><input type="text" name="checkCode" id="checkCode" class="loginInputBox" style="width:50px" /><img src="../includes/Code.asp" style="border:#CCC 1px solid" onclick="this.src=this.src+'?'" /></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><input type="submit" name="submit" value="登录" class="loginSubmitBox" /><input type="reset" name="reset" value="重置" class="loginSubmitBox" /></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div>
+</body>
+</html>
